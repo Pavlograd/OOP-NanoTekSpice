@@ -1,0 +1,12 @@
+.chipsets:
+input a
+input b
+input c
+4001 nor
+output s
+.links:
+a:1 nor:1
+b:1 nor:2
+c:1 nor:6
+nor:3 nor:5
+nor:4 s:1
